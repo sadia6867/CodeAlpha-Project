@@ -22,3 +22,6 @@ def main():
     print("Chatbot:", response)
     if user_input.lower().strip() == "bye":
       break 
+
+if __name__ == "__main__":
+  main()
